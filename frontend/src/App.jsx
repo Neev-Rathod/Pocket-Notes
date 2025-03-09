@@ -41,7 +41,7 @@ function App() {
   };
 
   // const appUrl = process.env.APP_URL;
-  const appUrl = 'https://pocket-notes-eight-inky.vercel.app/';
+  const appUrl = 'http://localhost:3001/';
   const handleCreateGroup = async () => {
 
     const nameParts = groupName.trim().split(' ');
